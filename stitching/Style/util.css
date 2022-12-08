@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+:root {
+    --font-1: 'Libre Baskerville', serif;
+    --font-2: 'Abyssinica SIL', serif;
+    --font-3:'Secular One', sans-serif;
+}
+.margin-max{
+padding: 5% 8%;
+}
+input::placeholder {
+    color: rgba(0, 0, 0, 0.608);
+    font-weight: 300;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+.fle-hz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fle-vt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sticky_bar{
+    z-index: 10;
+    position: fixed;
+    top: 30%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.275);
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    box-shadow: -5px 5px 10px 8px  rgba(128, 128, 128, 0.242);
+}
+.sticky_bar i{
+    margin: 8px 0px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.sticky_bar #pp:hover{
+color: red;
+}
+.sticky_bar #ii:hover{
+color: rgb(255, 85, 0);
+}
+.sticky_bar #yt:hover{
+color: red;
+}
+.sticky_bar #tt:hover{
+color: rgb(0, 183, 255);
+}
+.sticky_bar #fb:hover{
+color: rgb(68, 0, 255);
+}
