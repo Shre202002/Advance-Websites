@@ -1,23 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
 }
-body {
-    background: black;
+body{
+    background-color: black;
 }
-
-.clock {
+.clock{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: #17D4FE;
-    font-size: 60px;
-    font-family: Orbitron;
-    letter-spacing: 7px;
-   
-
-
+    transform: translate(-50% ,-50%);
+    border: 2px solid red;
+    padding: 20px;
+    font-size: 50px;
+    color: cyan;
+    border-radius: 20px;
+    box-shadow: 8px 8px 50px 2px rgb(145, 145, 145);
+    font-family: 'Lora', serif;
 }
