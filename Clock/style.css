@@ -20,4 +20,25 @@ body{
     border-radius: 20px;
     box-shadow: 8px 8px 50px 2px rgb(145, 145, 145);
     font-family: 'Lora', serif;
+    display: none;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    /* border: 2px solid red; */
+    background-color: gray;
+}
+.btn{
+    padding: 5px 20px;
+    cursor: pointer;
+    /* color: white; */
+    font-size: 20px;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#ind:focus{
+    background: linear-gradient(to right, #F29131, white, #128008);
 }
