@@ -1,24 +1,69 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Snack Water Gun</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./Style.css">
-    </head>
-    <body>
-        <h1>Welcome to Snack Water Gun Gam$el</h1>
-        <div>
-            <div></div>
-            <div></div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Snack Water Gun</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+    <h1 class="heading">Welcome to Snack Water Gun Game</h1>
+
+
+    <!-- <div class="rules">
+        <img src="./Background.png" alt="">
+    </div> -->
+
+
+
+
+    <h3>Choose Number Of Round Match You Want to Play</h3>
+    <div class="no_round">
+        <button class="rounds">1</button>
+        <button class="rounds">3</button>
+        <button class="rounds">5</button>
+        <button class="rounds">7</button>
+        <button class="rounds">9</button>
+    </div>
+    <div class="box">
+
+
+        <div class="number_round draw">
+            <span class="number_of_round">0</span>
+            <div>Number Of Round Played</div>
+        </div>  
+
+        <div class="score">
+
+            <div id="your_score">0</div>:
+            <div id="computer_score">0</div>
+            <div id="your">Your</div>
+            <div id="comp">Computer</div>
+
         </div>
-        
-        <script src="./script.js" async defer></script>
-    </body>
+
+        <div class="draw">
+            <span class="r_drawn">0</span>
+            <div>Round Drawn</div>
+        </div>
+       
+    </div>
+
+    <h2 class="result">Let's See Who Will Win </h2>
+    <div class="choise">
+        <div class=" option" id="snake"></div>
+        <div class=" option" id="water"></div>
+        <div class=" option" id="gun"></div>
+    </div>
+    <button class="reset">Reset</button>
+
+
+    <script src="./script.js" async defer></script>
+</body>
+
 </html>

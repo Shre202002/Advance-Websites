@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+
+:root {
+    --font2: 'Rubik Vinyl', cursive;
+    --font1: 'Rubik 80s Fade', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: black ;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: 20px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: var(--font1);
+}
+
+h3 {
+    /* border: 2px solid red;    */
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--font2);
+    font-weight: 400;
+    /* color: greenyellow; */
+}
+h2{
+    /* margin: 20px; */
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--font1);
+    font-weight: 400;
+    /* border: 2px solid red; */
+}
+.no_round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 20px ;
+}
+.rounds{
+    padding: 20px 50px;
+    /* font-family: var(--font2); */
+    background: black;
+    color: #fff;
+    border: 5px groove red;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 1s;
+}
+.rounds:hover , .active{
+    background-color: yellow;
+    color: black;
+}
+.box {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+}
+.score{
+    position: relative;
+    /* left: 22%; */
+    display: flex;
+    padding: 30px 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid red;
+    /* font-family: var(--font2); */
+}
+.draw{
+    border: 2px solid red;
+    position: relative;
+    /* right: -10%;
+    top: 45%; */
+    width: 11vw;
+    height: 10vh;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.draw div{
+    position: absolute;
+    font-size: 20px;
+    background: red;
+    color: #fff;
+    padding: 8px;
+    top: -35%;
+    left: 12%;
+}
+.number_round{
+    width: 15vw;
+}
+.number_round div{
+    font-size: 18px;
+    left: 5%;
+}
+#your{
+    position: absolute;
+    top: 37%;
+    left: -15%;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    background: red;
+    font-weight: 600;
+}
+#comp{
+    position: absolute;
+    top: 37%;
+    right: -30%;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    background: red;
+    font-weight: 600;   
+}
+.choise {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    /* border: 2px solid red; */
+    column-gap: 10px;
+    padding-left: 150px;
+    /* margin-top: 50px; */
+}
+
+.option {
+    border: 5px outset #fff;
+    border-radius: 1000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 15vw;
+    cursor: pointer;
+    transition: 1s;
+}
+#snake{
+    background: url(./snake.jpg) no-repeat top;
+    background-size: cover;
+}
+#snake:hover{
+    background-color: white;
+    border: 12px inset gray;
+}
+#water{
+    background: rgb(0, 0, 0) url(./water.jpg) no-repeat top;
+    background-size: cover;
+}
+#water:hover{
+    background-color: rgb(27, 113, 210);
+    border: 12px inset rgb(96, 96, 255);
+}
+#gun{
+    background: rgb(0, 0, 0) url(./gun_shooting.jpeg) no-repeat top;
+    background-size: cover;
+}
+#gun:hover{
+    background-color: rgb(204, 216, 30);
+    border: 12px inset rgb(255, 255, 96);
+}

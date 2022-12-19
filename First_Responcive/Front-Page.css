@@ -1,0 +1,57 @@
+.manu{
+	font-size: 25px;
+	 margin-top: 20px;
+	  margin-bottom: auto;
+	   width: auto;
+	  padding: 0px;
+	   font-family: 'DynaPuff', cursive;
+	    color: white;
+}
+.login{
+	width: 100%;
+	 margin-top: 15px;
+	  height: 40px;
+	   border-radius: 20px;
+	    background: #6a9db7 ;
+	     opacity: 90%;
+	      text-align: center;
+	       color: white;
+	        border: 2px solid black;
+	         	   font-family: 'DynaPuff'
+
+
+}
+.login:hover{
+	background: white;
+	 border: 2px solid white;
+	  color: black;
+}
+.vl {
+  border-left: 3px solid white;
+  height: 450px;
+  }
+  .v2 {
+  border-left: 3px solid white;
+  height: 150px;
+  margin-top: 30px;
+  }
+ .apple{
+ 	color: white;
+ 	 font-size: 50px;
+ 	  font-family: 'Rubik Dirt', cursive;
+ }
+  .apple-1{
+ 	color: white;
+ 	 font-size: 20px;
+ 	   font-family: 'DynaPuff', cursive;
+ }
+  .apple-2{
+ 	color: white;
+ 	 font-size: 20px;
+ 	  font-family: 'DynaPuff'
+ }
+ .apple-3{
+ 	color: white;
+ 	 font-size: 15px;
+ 	  font-family: 'PT Serif', serif;
+ }
