@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root {
+    --font1: 'Raleway', sans-serif;
+    --font2: 'Artifika', serif;
+    --font3: 'Roboto', sans-serif;
+}
+hr{
+    height: 10px;
+    width: 100vw;
+    background-color: rgb(55, 53, 53);
+    border: none;
+    outline: none;
+}
+.flex_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    font-family: var(--font3);
+}
+h4{
+    font-size: 20px;
+    font-family: var(--font3);
+    margin: 20px 0px;
+}
+video {
+    pointer-events: none;
+    position: relative;
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: -10;
+}

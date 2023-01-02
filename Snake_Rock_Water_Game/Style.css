@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap');
 
 
 :root {
     --font2: 'Rubik Vinyl', cursive;
     --font1: 'Rubik 80s Fade', cursive;
+    --font3: 'Libre Baskerville', serif;;
 }
 
 * {
@@ -46,6 +48,9 @@ h2{
     font-weight: 400;
     /* border: 2px solid red; */
 }
+h4{
+
+}
 .no_round{
     display: flex;
     align-items: center;
@@ -69,6 +74,17 @@ h2{
     background-color: yellow;
     color: black;
 }
+.rounds_number{
+/* position: absolute; */
+text-align: center;
+padding: 20px;
+font-size: 30px;
+font-family: var(--font3 );
+/* border: 2px solid red; */
+left: 50%;
+display: none;
+
+}
 .box {
     /* border: 2px solid red; */
     display: flex;
@@ -82,6 +98,7 @@ h2{
     padding: 30px 100px;
     justify-content: center;
     align-items: center;
+    font-family: var(--font3);
     font-size: 30px;
     border: 2px solid red;
     /* font-family: var(--font2); */
@@ -113,7 +130,7 @@ h2{
 }
 .number_round div{
     font-size: 18px;
-    left: 5%;
+    left: 25%;
 }
 #your{
     position: absolute;
@@ -179,4 +196,8 @@ h2{
 #gun:hover{
     background-color: rgb(204, 216, 30);
     border: 12px inset rgb(255, 255, 96);
+}
+.final_result{
+    display: none;
+    justify-content: space-between;
 }
